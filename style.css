@@ -3,185 +3,145 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 1s;
+    transition: 0.3s;
     text-decoration: none;
     font-family: sans-serif;
 }
 
 body {
-    background-color: #262A45;
+    background-color: #1a1e36;
     padding: 30px 100px;
+    color: white;
 }
 
-header {
+.eshshak-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    * {
-        color: white;
-    }
+    margin-bottom: 60px;
 }
 
-header nav {
+.ot-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.chochqa-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
-header div {
+.chochqa-nav a {
+    color: white;
+    font-size: 16px;
+}
+
+.chochqa-nav a:hover {
+    color: #22A6F0;
+}
+
+.mushuk-login-blok {
     display: flex;
-    gap: 10px;
+    gap: 25px;
     align-items: center;
 }
 
-header div a {
-    font-size: 20px;
-
-    *,
-    html {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        transition: 0.3s;
-        text-decoration: none;
-        font-family: sans-serif;
-    }
-
-    body {
-        background-color: #1a1e36;
-        padding: 30px 100px;
-        color: white;
-    }
-
-    .eshshak-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 60px;
-    }
-
-    .ot-logo {
-        font-size: 24px;
-        font-weight: bold;
-        color: white;
-    }
-
-    .chochqa-nav {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .chochqa-nav a {
-        color: white;
-        font-size: 16px;
-    }
-
-
-
-    .mushuk-login-blok {
-        display: flex;
-        gap: 25px;
-        align-items: center;
-    }
-
-    .mushuk-login-blok a {
-        color: white;
-        font-size: 16px;
-    }
-
-    .it-tugma {
-        background-color: #22A6F0;
-        color: white;
-        border-radius: 5px;
-        border: none;
-        padding: 12px 22px;
-        font-size: 15px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .kalla-hero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .qoy-matnlar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .xarakter-welcome {
-        color: #22A6F0;
-        font-size: 16px;
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
-
-    .siyir-sarlavha {
-        font-size: 52px;
-        line-height: 1.2;
-        margin-bottom: 30px;
-        font-weight: bold;
-    }
-
-    .tovuq-gap {
-        color: #a0a5c0;
-        font-size: 18px;
-        line-height: 1.5;
-        margin-bottom: 35px;
-    }
-
-    .bori-tugmalar {
-        display: flex;
-        gap: 10px;
-    }
-
-    .moviy-mol {
-        background-color: #22A6F0;
-        color: white;
-        border: none;
-        padding: 15px 36px;
-        border-radius: 5px;
-        font-size: 15px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .ramka-tuxum {
-        background-color: transparent;
-        color: #22A6F0;
-        border: 1px solid #22A6F0;
-        padding: 15px 36px;
-        border-radius: 5px;
-        font-size: 15px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-
-
-    .fil-rasm-qutisi {
-        max-width: 550px;
-    }
-
-    .yagona-bitta-rasm {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    display: flex;
+.mushuk-login-blok a {
+    color: white;
+    font-size: 16px;
 }
 
-header div button {
+.it-tugma {
     background-color: #22A6F0;
+    color: white;
     border-radius: 5px;
     border: none;
-    padding: 10px 18px;
-    font-size: 19px;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.it-tugma:hover {
+    background-color: #1a8ad0;
+}
+
+.kalla-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qoy-matnlar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.xarakter-welcome {
+    color: #22A6F0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.siyir-sarlavha {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.tovuq-gap {
+    color: #a0a5c0;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.bori-tugmalar {
+    display: flex;
+    gap: 10px;
+}
+
+.moviy-mol {
+    background-color: #22A6F0;
+    color: white;
+    border: none;
+    padding: 15px 36px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.moviy-mol:hover {
+    background-color: #1a8ad0;
+}
+
+.ramka-tuxum {
+    background-color: transparent;
+    color: #22A6F0;
+    border: 1px solid #22A6F0;
+    padding: 15px 36px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ramka-tuxum:hover {
+    background-color: rgba(34, 166, 240, 0.1);
+}
+
+.fil-rasm-qutisi {
+    max-width: 550px;
+}
+
+.yagona-bitta-rasm {
+    width: 100%;
+    height: auto;
+    display: block;
 }
