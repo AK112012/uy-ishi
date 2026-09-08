@@ -1,147 +1,30 @@
-*,
-html {
+*, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.3s;
-    text-decoration: none;
     font-family: sans-serif;
+    text-decoration: none;
 }
-
-body {
-    background-color: #262A45;
-    padding: 30px 100px;
-    color: white;
-}
-
-.eshshak-header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
+    flex-direction: row;
+    padding: 20px 55px;
+    border-bottom: 2px solid grey;
 }
 
-.ot-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+header a {
+    color: grey;
+    margin-right: 15px;
 }
-
-.chochqa-nav {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.chochqa-nav a {
-    color: white;
-    font-size: 16px;
-}
-
-.chochqa-nav a:hover {
-    color: #22A6F0;
-}
-
-.mushuk-login-blok {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-}
-
-.mushuk-login-blok a {
-    color: white;
-    font-size: 16px;
-}
-
-.it-tugma {
-    background-color: #22A6F0;
-    color: white;
-    border-radius: 5px;
+header  button {
+    background-color: #2263EB;
     border: none;
-    padding: 12px 22px;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.it-tugma:hover {
-    background-color: #1a8ad0;
-}
-
-.kalla-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.qoy-matnlar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.xarakter-welcome {
-    color: #22A6F0;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.siyir-sarlavha {
-    font-size: 52px;
-    line-height: 1.2;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.tovuq-gap {
-    color: #a0a5c0;
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 35px;
-}
-
-.bori-tugmalar {
-    display: flex;
-    gap: 10px;
-}
-
-.moviy-mol {
-    background-color: #22A6F0;
+    border-radius: 5px;
     color: white;
-    border: none;
-    padding: 15px 36px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
+    padding: 8px 13px;
 }
-
-.moviy-mol:hover {
-    background-color: #1a8ad0;
-}
-
-.ramka-tuxum {
-    background-color: transparent;
-    color: #22A6F0;
-    border: 1px solid #22A6F0;
-    padding: 15px 36px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.ramka-tuxum:hover {
-    background-color: rgba(34, 166, 240, 0.1);
-}
-
-.fil-rasm-qutisi {
-    max-width: 550px;
-}
-
-.yagona-bitta-rasm {
-    width: 100%;
-    height: auto;
-    display: block;
+header h1 {
+    color: #2263EB;
 }
