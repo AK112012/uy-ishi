@@ -1,10 +1,12 @@
-*, html {
+*,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -18,13 +20,248 @@ header a {
     color: grey;
     margin-right: 15px;
 }
-header  button {
+
+header button {
     background-color: #2263EB;
     border: none;
     border-radius: 5px;
     color: white;
     padding: 8px 13px;
 }
+
 header h1 {
     color: #2263EB;
+}
+
+
+.iconcha {
+    background-color: #FCF4F7;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    color: #2263EB;
+}
+
+.hero div h1 {
+    margin: 20px 0;
+}
+
+.hero div p {
+    color: grey;
+    margin: 20px 0;
+}
+
+.hero div nav {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    background-color: #2263EB;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 19x;
+    color: white;
+
+}
+
+.btn2 {
+    background-color: white;
+    border: 2px solid #2263EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #2263EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 150px 0;
+    gap: 100px;
+    align-items: center;
+}
+
+.hero img {
+    width: 400px;
+}
+
+.natija {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F7FF;
+    padding: 50px 80px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.natija div {
+    text-align: center;
+
+}
+
+.z {
+    border: none;
+    padding: none;
+}
+
+.natija div h1 {
+    color: #2263EB;
+    margin-bottom: 5px;
+}
+
+.natija div p {
+    color: grey;
+}
+
+.q {
+    text-align: center;
+}
+
+.u {
+    color: grey;
+    text-align: center;
+    margin: 10px;
+}
+
+.zz div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.zz i {
+    font-size: 49px;
+}
+
+.zz p {
+    color: grey;
+}
+
+.zz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.zaynab {
+    background-color: #2563eb;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.zaynab h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.zaynab p {
+    font-size: 16px;
+    color: #e0e7ff;
+    margin-bottom: 32px;
+}
+
+
+.zaynab input {
+    width: 320px;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333333;
+}
+
+
+
+
+.zaynab button {
+    background-color: #ffffff;
+    color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer p {
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .hero nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .natija {
+        flex-direction: column;
+        width: 90%;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .zz {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .zaynab nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .zaynab nav input {
+        width: 100%;
+        max-width: 600px;
+    }
+
+
 }
